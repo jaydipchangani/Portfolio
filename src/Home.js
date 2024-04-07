@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div class="m-8 grid grid-flow-row gap-8 font-serif drop-shadow-md hover:drop-shadow-xl sm:grid-cols-4">
+    <div class="m-8 grid grid-flow-row gap-8 font-sans drop-shadow-md hover:drop-shadow-xl sm:grid-cols-4 ">
       <div class="max-h-[600px] w-auto rounded-lg bg-gray-800 drop-shadow-md hover:bg-orange-500 hover:drop-shadow-xl sm:row-span-2">
         <img
           src="./images/logoside.png"
@@ -18,7 +18,7 @@ function Home() {
           class="object-cover h-[320px] w-[800px] rounded-lg"
         />
       </div>
-      <div class="min-h-[300px] rounded-lg bg-red-400 drop-shadow-md hover:drop-shadow-xl text-black justify-center hover:text-white duration-500">
+      <div class="min-h-[300px] rounded-lg bg-red-400 drop-shadow-md hover:drop-shadow-xl text-black justify-center hover:text-white duration-500 overflow-hidden">
         <h1 class="mx-8  mt-14 flex  text-4xl font-semibold ">Hello there👋</h1>
 
         <h3 class="mx-8  mt-5 flex  text-xl ">
